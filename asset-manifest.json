@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/v-dot-app-login/static/css/main.3078bc01.css",
-    "main.js": "/v-dot-app-login/static/js/main.69fd9f97.js",
+    "main.css": "/v-dot-app-login/static/css/main.15d31e55.css",
+    "main.js": "/v-dot-app-login/static/js/main.7a971371.js",
     "static/js/453.957340d5.chunk.js": "/v-dot-app-login/static/js/453.957340d5.chunk.js",
     "static/media/age.png": "/v-dot-app-login/static/media/age.2211dc0ef7b7c2fe721d.png",
     "static/media/username.png": "/v-dot-app-login/static/media/username.5ef47379cff6db6a0546.png",
@@ -10,12 +10,12 @@
     "static/media/email.png": "/v-dot-app-login/static/media/email.e32c0213fd491574ad05.png",
     "static/media/profile.png": "/v-dot-app-login/static/media/profile.007e651a3f71e58aac35.png",
     "index.html": "/v-dot-app-login/index.html",
-    "main.3078bc01.css.map": "/v-dot-app-login/static/css/main.3078bc01.css.map",
-    "main.69fd9f97.js.map": "/v-dot-app-login/static/js/main.69fd9f97.js.map",
+    "main.15d31e55.css.map": "/v-dot-app-login/static/css/main.15d31e55.css.map",
+    "main.7a971371.js.map": "/v-dot-app-login/static/js/main.7a971371.js.map",
     "453.957340d5.chunk.js.map": "/v-dot-app-login/static/js/453.957340d5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3078bc01.css",
-    "static/js/main.69fd9f97.js"
+    "static/css/main.15d31e55.css",
+    "static/js/main.7a971371.js"
   ]
 }
