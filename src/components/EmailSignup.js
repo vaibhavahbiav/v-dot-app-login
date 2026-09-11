@@ -15,7 +15,10 @@ function EmailSignup({ onContinue }) {
       <div>
         <h1 className="text-5xl md:text-4xl text-neutral-200 font-cursive text-center leading-[60px]">
           Do you have an{" "}
-          <span className=" text-purple-500 font-climate decoration-red-600 decoration-wavy underline underline-offset-4">Email &nbsp;</span>?
+          <span className=" text-purple-500 font-climate decoration-red-600 decoration-wavy underline underline-offset-4">
+            Email &nbsp;
+          </span>
+          ?
         </h1>
         <img
           className="h-[350px] justify-self-center"
@@ -41,7 +44,8 @@ function EmailSignup({ onContinue }) {
       />
       {showError && (
         <p className="text-red-700 md:mt-3 animate-bounce text-center">
-          Please enter a <strong>REAL</strong> & <strong>VALID</strong> email address.
+          Please enter a <strong>REAL</strong> & <strong>VALID</strong> email
+          address.
         </p>
       )}
 

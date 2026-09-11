@@ -78,7 +78,10 @@ function SetDob({ onContinue, onBack }) {
           </span>
           ?
         </h1>
-        <p className="text-stone-400 mt-5 md:mt-2 text-xl md:text-sm">You must be <strong className="text-yellow-500">18 or older</strong> to use this app.</p>
+        <p className="text-stone-400 mt-5 md:mt-2 text-xl md:text-sm">
+          You must be <strong className="text-yellow-500">18 or older</strong>{" "}
+          to use this app.
+        </p>
         <img src={ageImg} alt="age check" />
       </div>
 
@@ -120,7 +123,9 @@ function SetDob({ onContinue, onBack }) {
         </div>
 
         {showFormatError && (
-          <p className="text-red-600 text-sm mt-2">Please enter a valid date.</p>
+          <p className="text-red-600 text-sm mt-2">
+            Please enter a valid date.
+          </p>
         )}
         {showAgeError && (
           <p className="text-red-600 text-sm mt-2">

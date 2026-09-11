@@ -5,7 +5,7 @@ import BackButton from "./BackBtn";
 const MIN = 4;
 const MAX = 23;
 
-function SetUsername({initialvalue ="", onContinue, onBack }) {
+function SetUsername({ initialvalue = "", onContinue, onBack }) {
   const [username, setUsername] = useState(initialvalue);
   const [touched, setTouched] = useState(false);
 

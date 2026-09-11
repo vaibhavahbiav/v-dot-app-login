@@ -13,7 +13,9 @@ function Greetings({ onContinue }) {
           alt="v dot app hi-s you"
         />
         <div className="flex flex-col items-center justify-center">
-          <span className="font-cursive text-white text-2xl md:text-lg">from</span>
+          <span className="font-cursive text-white text-2xl md:text-lg">
+            from
+          </span>
           <div className="flex items-center justify-center">
             <div className="relative w-fit z-10">
               <span className=" text-[150px] md:text-[111px] font-climate text-yellow-400 ">

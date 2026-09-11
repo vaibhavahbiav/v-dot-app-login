@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 
 function FinishingUp({ onDone }) {
-  const [stage, setStage] = useState("finishing"); 
+  const [stage, setStage] = useState("finishing");
 
   useEffect(() => {
     const timer1 = setTimeout(() => setStage("done"), 3000);
@@ -17,7 +17,9 @@ function FinishingUp({ onDone }) {
       {stage === "finishing" ? (
         <>
           <div className="w-10 h-10 border-4 border-stone-600 border-t-white rounded-full animate-spin" />
-          <p className="text-stone-300 font-medium">Setting up your profile...</p>
+          <p className="text-stone-300 font-medium">
+            Setting up your profile...
+          </p>
         </>
       ) : (
         <>

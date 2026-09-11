@@ -37,7 +37,9 @@ function Phone({ children }) {
           >
             Made by <strong>Vaibhav</strong> and <strong>Internet</strong>.
           </marquee>
-          <span className="absolute top-1 md:top-0 left-1/2 -translate-x-1/2 text-base md:text-sm text-white">{time}</span>
+          <span className="absolute top-1 md:top-0 left-1/2 -translate-x-1/2 text-base md:text-sm text-white">
+            {time}
+          </span>
           <img
             className="absolute top-1 right-3 md:top-0 md:right-2"
             src={batteryIcon}

@@ -7,16 +7,31 @@ function JustAccept({ onAccept }) {
 
       <div className="flex-1 overflow-y-auto text-white text-sm leading-relaxed pr-1 space-y-5 font-serif">
         <p>Very important wall of text here.</p>
-        <p>Which I am sure nobody has ever in the history of human kind has ignored. </p>
+        <p>
+          Which I am sure nobody has ever in the history of human kind has
+          ignored.{" "}
+        </p>
 
         <p>Definitely nobody has ever dared to just scrolled past.</p>
 
-        <p>Everyone has taken their time, precious to them more than the Ring to Gollum, to read word to word.</p>
+        <p>
+          Everyone has taken their time, precious to them more than the Ring to
+          Gollum, to read word to word.
+        </p>
 
         <p>Understanding the policy of data sharing on this platform</p>
-        <p>How your likliness and personal digital data is "never" going to be allowed to be public</p>
-        <p>And definitely never to the hard working tele marketeers who calls you at optimal times</p>
-        <p>Anyways.... more words like that continues on for other 3.14 kilometers.</p>
+        <p>
+          How your likliness and personal digital data is "never" going to be
+          allowed to be public
+        </p>
+        <p>
+          And definitely never to the hard working tele marketeers who calls you
+          at optimal times
+        </p>
+        <p>
+          Anyways.... more words like that continues on for other 3.14
+          kilometers.
+        </p>
         <p>Hopefuly, it will be clever and decently written.</p>
         <p>Like up until now.</p>
         <p>.</p>
