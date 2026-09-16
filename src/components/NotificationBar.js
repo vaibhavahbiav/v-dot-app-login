@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import batteryIcon from "../assets/icons/battery.png";
-import Marquee from "react-fast-marquee";
 
 function NotificationBar() {
   const [time, setTime] = useState(
@@ -26,13 +25,14 @@ function NotificationBar() {
 
   return (
     <div className="absolute z-20 top-0 left-0 h-7 md:h-5 bg-white/20 shadow-lg border-b-2 border-neutral-50/10 w-full backdrop-blur-sm">
-      <Marquee
-        className="absolute top-1 md:top-0 left-0 text-base md:text-sm text-white w-[40%]"
-        behavior="scrolling"
+      <marquee
+        className="absolute top-1 md:top-0 left-0 max-w-[40%]"
         direction="left"
       >
-        Made by <strong>Vaibhav</strong> and <strong>Internet</strong>.
-      </Marquee>
+        <div className="text-base md:text-sm text-white">
+          Made by <strong>Vaibhav</strong> and <strong>Internet</strong>.
+        </div>
+      </marquee>
       <span className="absolute top-1 md:top-0 left-1/2 -translate-x-1/2 text-base md:text-sm text-white">
         {time}
       </span>
