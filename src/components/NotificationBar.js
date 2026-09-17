@@ -16,7 +16,7 @@ function NotificationBar() {
         new Date().toLocaleTimeString([], {
           hour: "2-digit",
           minute: "2-digit",
-          hour12: false,
+          hour12: true,
         }),
       );
     }, 30000);
